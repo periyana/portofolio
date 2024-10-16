@@ -3,13 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/periyana/portofolio", // Ganti dengan username dan nama repo GitHub Anda
-  "scripts": {
+  "homepage": "https://periyana.github.io/portofolio/", 
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist" // Tambahkan ini untuk deploy
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
