@@ -16,7 +16,7 @@ function Experience() {
     {
       jobTitle: "Software Intern",
       company: "PT. Microtek Informa Solusindo",
-      duration: "Jun 2021 - Dec 2021",
+      duration: "2018 - 2023",
       responsibilities: ["Assisted in developing web applications and services.", "Participated in code reviews and testing phases.", "Gained hands-on experience with SQL databases."],
     },
   ];
