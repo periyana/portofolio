@@ -1,0 +1,90 @@
+/* General Section Styling */
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  background: linear-gradient(135deg, hsl(182, 80%, 54%), hwb(0 96% 3%)); /* Attractive two-color gradient */
+  min-height: 100vh;
+  color: white;
+}
+
+.experience h2 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.experience p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+/* Experience List */
+.experience-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 900px; /* Limit the width for better readability */
+  margin: 0 auto; /* Center the list on the page */
+}
+
+.experience-item {
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 25px;
+  border-radius: 15px; /* Rounded corners for the cards */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: left; /* Align text to the left for better readability */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for experience items */
+.experience-item:hover {
+  transform: translateY(-10px); /* Lift the card slightly on hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+}
+
+.experience-item h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: hsl(210, 27%, 4%); /* Highlight job title with a blue color */
+}
+
+.experience-item p {
+  font-size: 1rem;
+  color: #444;
+}
+
+.responsibilities-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+.responsibilities-list li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6; /* Increased line spacing for readability */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .experience h2 {
+    font-size: 2rem;
+  }
+
+  .experience-item h3 {
+    font-size: 1.5rem;
+  }
+
+  .responsibilities-list li {
+    font-size: 0.9rem;
+  }
+
+  .experience-list {
+    padding: 0 15px;
+  }
+}

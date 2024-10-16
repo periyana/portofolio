@@ -1,0 +1,62 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  background: linear-gradient(135deg, hsl(182, 80%, 54%), hwb(0 60% 36%)); /* Attractive two-color gradient */
+  min-height: 100vh;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 3rem; /* Increased font size */
+  color: hsl(180, 40%, 4%); /* Headline color */
+  text-align: center; /* Center the heading */
+  font-family: "Arial", sans-serif; /* Choose a clean font */
+}
+
+.profile-container {
+  text-align: center; /* Center the profile image */
+}
+
+.profile-image {
+  width: 150px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the image circular */
+  margin-bottom: 1rem; /* Space below the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.scrolling-text {
+  opacity: 0; /* Start as invisible */
+  animation: fadeIn 2s forwards; /* Animation properties */
+  margin: 1rem 0; /* Space around the text */
+  font-size: 3rem; /* Slightly larger font size */
+  font-weight: bold; /* Text weight */
+  color: #007bff; /* Text color */
+  text-transform: uppercase; /* Uppercase text */
+  text-align: center; /* Center text alignment */
+  letter-spacing: 1px; /* Add spacing between letters */
+}
+
+p {
+  max-width: 800px; /* Limit paragraph width */
+  line-height: 1.6; /* Increase line height for readability */
+  font-size: 1.1rem; /* Set font size for paragraphs */
+  color: hsl(0, 10%, 4%); /* Softer text color */
+  margin: 0.5rem 0; /* Space around paragraphs */
+  text-align: center; /* Center paragraph text */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Fully transparent */
+    transform: translateY(-10px); /* Start slightly above */
+  }
+  100% {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* End in original position */
+  }
+}

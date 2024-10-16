@@ -1,0 +1,51 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  background: linear-gradient(135deg, hsl(182, 80%, 54%), hwb(0 96% 3%)); /* Attractive two-color gradient */
+  min-height: 100vh;
+  color: #0a0909;
+}
+
+.project-list {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove padding */
+  width: 100%; /* Full width for better alignment */
+  max-width: 800px; /* Limit the maximum width for readability */
+}
+
+.project-item {
+  margin: 20px 0; /* Space between projects */
+  padding: 15px; /* Add padding for better touch target */
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly darken background for contrast */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  transition: background-color 0.3s ease; /* Smooth background change on hover */
+}
+
+.project-item:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Change background color on hover */
+}
+
+.project-item h3 {
+  font-size: 1.75rem; /* Increased title size for better emphasis */
+  margin-bottom: 5px; /* Space below title */
+}
+
+.project-item p {
+  font-size: 1.1rem; /* Add a paragraph style for description */
+  margin: 5px 0 10px; /* Space around the description */
+  color: rgba(10, 10, 10, 0.8); /* Slightly muted text color for descriptions */
+}
+
+.project-item a {
+  color: hsl(0, 0%, 3%); /* Change link color for better visibility */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold links for emphasis */
+}
+
+.project-item a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: hsl(0, 0%, 5%); /* Change color on hover for better visibility */
+}

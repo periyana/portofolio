@@ -1,0 +1,54 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  background: linear-gradient(135deg, hsl(182, 80%, 54%), hwb(0 96% 3%)); /* Attractive two-color gradient */
+  min-height: 100vh;
+  color: white;
+}
+
+.skills h2 {
+  font-size: 2.5rem; /* Larger heading */
+  margin-bottom: 25px; /* Space below the heading */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 1.5px; /* Space between letters */
+  font-weight: bold; /* Bold heading */
+}
+
+.skills p {
+  font-size: 1.5rem; /* Slightly larger paragraph text */
+  margin-bottom: 30px; /* Space below the paragraph */
+  line-height: 1.8; /* Increase line height for readability */
+  max-width: 800px; /* Maksimum lebar paragraf */
+  margin-left: auto; /* Center align */
+  margin-right: auto; /* Center align */
+}
+
+.skills-list {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove padding */
+}
+
+.skill-item {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  margin: 15px 0; /* Space between items */
+  font-size: 1.3rem; /* Adjust font size */
+  padding: 10px 15px; /* Add padding for each skill item */
+  border-radius: 8px; /* Rounded corners for skill items */
+  background-color: #6b6375e6; /* Slightly off-white background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.skill-item:hover {
+  transform: translateY(-3px); /* Slightly lift on hover */
+}
+
+.skill-item i {
+  margin-right: 15px; /* Space between icon and text */
+  font-size: 1.8rem; /* Increase icon size */
+  color: #007bff; /* Customize icon color */
+}

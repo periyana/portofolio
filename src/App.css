@@ -1,0 +1,31 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif; /* Ensure the specified font is used */
+  background: linear-gradient(90deg, #007bff, #c21221); /* Background color */
+  background-size: 400% 400%; /* Background size for animation */
+  animation: gradient 15s ease infinite; /* Adding animation */
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 100% 50%; /* Shift to the right */
+  }
+  50% {
+    background-position: 0% 50%; /* Shift back to the left */
+  }
+  75% {
+    background-position: 100% 50%; /* Shift to the right again */
+  }
+  100% {
+    background-position: 0% 50%; /* Complete the loop */
+  }
+}
+
+.section {
+  padding: 20px;
+  color: white; /* Set text color to white */
+}

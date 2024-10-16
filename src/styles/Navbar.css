@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem; /* Adjust as needed */
+  background-color: #e0f4f5; /* Change to your preferred background color */
+}
+
+.wrapper {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  width: 100%; /* Take full width */
+}
+
+.logo {
+  font-size: 24px; /* Adjust size as needed */
+  color: rgb(15, 214, 232); /* Change color as needed */
+  text-decoration: none; /* Remove underline from link */
+}
+
+.hamburger {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; /* Align items to the right */
+  margin-left: auto; /* Push hamburger to the right */
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(62, 244, 244); /* Change color as needed */
+  margin: 3px 0;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.offcanvas-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 60px; /* Adjust based on navbar height */
+  right: 0; /* Position the menu on the right */
+  width: 250px; /* Set a width for the menu */
+  background-color: #3fedf6; /* Change color as needed */
+  z-index: 1000; /* Ensure it appears above other elements */
+  transition: transform 0.3s ease; /* Add transition for smooth opening */
+  transform: translateX(100%); /* Initially hide off-screen */
+}
+
+.offcanvas-menu.active {
+  display: block; /* Show when active */
+  transform: translateX(0); /* Move into view */
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-item {
+  padding: 10px 20px; /* Add padding */
+}
+
+.menu-item a {
+  color: white; /* Change color as needed */
+  text-decoration: none; /* Remove underline */
+}
+
+.menu-item:hover {
+  background-color: #555; /* Add hover effect */
+}
