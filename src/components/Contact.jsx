@@ -21,14 +21,14 @@ function Contact() {
           <FontAwesomeIcon icon={faLinkedin} className="contact-icon" />
           LinkedIn:{" "}
           <a href="https://www.linkedin.com/in/periyana1746" target="_blank" rel="noopener noreferrer" className="contact-link">
-            yourprofile
+            Periyana
           </a>
         </li>
         <li>
           <FontAwesomeIcon icon={faGithub} className="contact-icon" />
           GitHub:{" "}
           <a href="https://github.com/periyana" target="_blank" rel="noopener noreferrer" className="contact-link">
-            yourprofile
+            Periyana
           </a>
         </li>
       </ul>
